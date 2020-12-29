@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: fixed;
+  width: 900px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 200px;
+  background-color: cadetblue;
+}
+
+.container_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  height: 400px;
+  min-width: 500px;
+  padding-left: 60px;
+}
+
+.container_2 {
+  position: relative;
+  left: 500px;
+  bottom: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-width: 400px;
+  width: 400px;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_2, .ck1, .ck2, .ck3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.container_3 {
+  position: relative;
+  left: 600px;
+  bottom: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 200px;
+}
+
+.container .container_3, label {
+  height: 20px;
+  outline: 0;
+}
+
+.container_4 {
+  width: 400px;
+  height: 200px;
+}
+
+.container_4 .pill-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 200px;
+  height: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  left: 300px;
+  bottom: -100px;
+}
+
+.container_4 .pill-container input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+}
+
+.container_4 .pill-container button {
+  position: relative;
+  left: 150px;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #5183f5;
+  border: 1px solid #5183f5;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  outline: 0;
+}
+
+.container_4 .pill-container :hover {
+  background-color: #6e89c9;
+}
+
+.container_4 .selector {
+  margin: 5px;
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 1.1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #5183f5;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  cursor: pointer;
+  background: #e2eafd;
+  border: 2px solid #5183f5;
+  border-right: 0;
+}
+
+.container_4 .selector:hover {
+  background: #b1c8fb;
+  color: #5183f5;
+}
+
+.container_4 input[type="checkbox"]:checked + label {
+  background: #5183f5;
+  color: white;
+}
+
+#name {
+  width: 400px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: 0;
+}
+
+#email {
+  width: 400px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+#cxText {
+  margin-top: 30px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: 0;
+}
+
+h1 {
+  color: black;
+  font-size: 15px;
+}
+/*# sourceMappingURL=form.css.map */
